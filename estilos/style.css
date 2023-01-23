@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-/*
-paleta de cores
-#D9BE6C
-#BF9E60
-#D9D0C5
-#8C644D
-#734136
-*/
-
 *{
     padding: 0px;
     margin: 0px;
@@ -28,13 +19,15 @@ main{
 #login{
     background-color: white;
     width:250px;
-    height: 510px;
+    height: 500px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px 5px rgb(151, 144, 144);
+
+    transition: width .2s, height .2s;
     
 }
 
@@ -60,6 +53,7 @@ main{
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
+    font-size: 14px;
    
 }
 
@@ -100,7 +94,7 @@ span{
     vertical-align: middle;
 }
 
-#botãoentrar{
+#botaoentrar{
     width: 90%;
     margin-bottom: 5px;
     background-color: #af796c;
@@ -109,7 +103,7 @@ span{
     color: white;
 }
 
-#botãoentrar:hover{
+#botaoentrar:hover{
     background-color:#734136;
 }
 
