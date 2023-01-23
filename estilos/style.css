@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*
+paleta de cores
+#D9BE6C
+#BF9E60
+#D9D0C5
+#8C644D
+#734136
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfc4b6;
+}
+
+main{
+    
+
+}
+
+#login{
+    background-color: white;
+    width:250px;
+    height: 510px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px rgb(151, 144, 144);
+    
+}
+
+#imagem{
+    height: 180px;
+    background-image: url(../imagens/pexels-caroline-cagnin-1880654.jpg);
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#formulario{
+    padding: 10px;
+}
+
+#formulario > h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#formulario > p{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+   
+}
+
+form{
+    text-align: center;
+    margin: auto;
+}
+
+form > div{
+    margin-bottom:10px;
+    padding: 4px;
+    padding-bottom: ;
+    margin: auto;
+    width: 90%;
+    background-color:#b49d90 ;
+    border-radius: 7px;
+    
+}
+
+form input{
+    height: 35px;
+    width: 170px;
+    border-radius: 7px;
+    border: 0px solid black;
+    padding-left: 4px;
+    background-color: #e6f0fa;
+}
+
+#caixaemail{
+    margin-bottom: 5px;
+}
+
+#caixasenha{
+    margin-bottom: 5px;
+}
+
+span{
+    vertical-align: middle;
+}
+
+#botãoentrar{
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: #af796c;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#botãoentrar:hover{
+    background-color:#734136;
+}
+
+#esqueci{
+    width: 90%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: solid 1px #734136;
+    background-color: white;
+}
+
+#esqueci:hover{
+    background-color: #734136;
+    color: white;
+}
